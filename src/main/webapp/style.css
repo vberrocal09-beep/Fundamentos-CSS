@@ -1,0 +1,236 @@
+/* =====================================================
+   MI CAFETERÍA - HOJA DE ESTILOS
+   Ejemplo de fundamentos de CSS
+   ===================================================== */
+
+
+/* -----------------------------------------------------
+   1. SELECTOR DE ELEMENTO
+   Se aplica a todos los elementos <body>.
+   ----------------------------------------------------- */
+
+body {
+    /* Color de fondo */
+    background-color: #f5eee6;
+
+    /* Tipo de letra */
+    font-family: Arial, sans-serif;
+
+    /* Color general del texto */
+    color: #3e2723;
+
+    /* Espaciado interno */
+    padding: 2rem;
+
+    /* Tamaño de letra */
+    font-size: 100%;
+}
+
+
+/* -----------------------------------------------------
+   2. SELECTOR ID
+   El símbolo # se utiliza para seleccionar un ID.
+   ----------------------------------------------------- */
+
+#titulo {
+    /* Color del título */
+    color: #6f4e37;
+
+    /* Tamaño utilizando px */
+    font-size: 36px;
+
+    /* Texto centrado */
+    text-align: center;
+
+    /* Espaciado inferior */
+    margin-bottom: 10px;
+}
+
+
+/* -----------------------------------------------------
+   3. SELECTOR CLASS
+   El punto . se utiliza para seleccionar una clase.
+   ----------------------------------------------------- */
+
+.eslogan {
+    /* Color del texto */
+    color: #8b5e3c;
+
+    /* Tamaño utilizando em */
+    font-size: 1.3em;
+
+    /* Texto centrado */
+    text-align: center;
+
+    /* Estilo de letra */
+    font-style: italic;
+}
+
+
+/* -----------------------------------------------------
+   4. SELECTOR DE ELEMENTO
+   Se aplica a todos los <h2>.
+   ----------------------------------------------------- */
+
+h2 {
+    color: #5d4037;
+
+    /* Tamaño utilizando rem */
+    font-size: 1.8rem;
+
+    /* Línea inferior */
+    border-bottom: 2px solid #c7a17a;
+
+    /* Espaciado */
+    padding-bottom: 5px;
+
+    margin-top: 30px;
+}
+
+
+/* -----------------------------------------------------
+   5. CLASE PRODUCTO
+   La misma clase se utiliza en varios productos.
+   ----------------------------------------------------- */
+
+.producto {
+    /* Color del texto */
+    color: #4e342e;
+
+    /* Tamaño utilizando % */
+    font-size: 110%;
+
+    /* Texto en negrita */
+    font-weight: bold;
+
+    /* Espaciado entre productos */
+    margin: 8px;
+}
+
+
+/* -----------------------------------------------------
+   6. CLASE DESTACADO
+   Se utiliza para resaltar la promoción.
+   ----------------------------------------------------- */
+
+.destacado {
+    /* Color de fondo */
+    background-color: #fff3cd;
+
+    /* Color del texto */
+    color: #795548;
+
+    /* Espaciado interno */
+    padding: 15px;
+
+    /* Bordes redondeados */
+    border-radius: 10px;
+
+    /* Texto centrado */
+    text-align: center;
+
+    /* Tamaño utilizando rem */
+    font-size: 1.2rem;
+
+    /* Negrita */
+    font-weight: bold;
+}
+
+
+/* -----------------------------------------------------
+   7. FUENTES Y TEXTO
+   Aplicamos estilos a los párrafos.
+   ----------------------------------------------------- */
+
+p {
+    /* Altura de línea */
+    line-height: 1.6;
+
+    /* Tamaño de letra */
+    font-size: 1rem;
+}
+
+
+/* -----------------------------------------------------
+   8. ENLACES
+   Estilo normal del enlace.
+   ----------------------------------------------------- */
+
+a {
+    /* Color del enlace */
+    color: #6f4e37;
+
+    /* Negrita */
+    font-weight: bold;
+
+    /* Quitamos el subrayado */
+    text-decoration: none;
+}
+
+
+/* -----------------------------------------------------
+   9. ESTADO HOVER DEL ENLACE
+   Cambia cuando el usuario coloca el mouse encima.
+   ----------------------------------------------------- */
+
+a:hover {
+    color: #a0522d;
+
+    /* Volvemos a mostrar el subrayado */
+    text-decoration: underline;
+}
+
+
+/* -----------------------------------------------------
+   10. FOOTER
+   Selector ID para el pie de página.
+   ----------------------------------------------------- */
+
+#pie {
+    /* Texto centrado */
+    text-align: center;
+
+    /* Tamaño utilizando vw.
+       vw representa un porcentaje del ancho
+       de la ventana del navegador. */
+    font-size: 1.5vw;
+
+    /* Color */
+    color: #795548;
+
+    /* Espaciado superior */
+    margin-top: 40px;
+}
+
+
+/* -----------------------------------------------------
+   11. EJEMPLO DE UNIDAD vh
+   vh representa un porcentaje de la altura
+   de la ventana del navegador.
+   ----------------------------------------------------- */
+
+body {
+    /* Altura mínima de toda la página */
+    min-height: 100vh;
+}
+
+
+/* -----------------------------------------------------
+   12. PROPIEDAD FONT
+   La propiedad font permite establecer varias
+   propiedades relacionadas con la fuente.
+   ----------------------------------------------------- */
+
+.eslogan {
+    /*
+       font:
+       estilo | peso | tamaño | familia
+    */
+
+    font: italic 400 1.3em Arial, sans-serif;
+}
+
+
+/* -----------------------------------------------------
+   FIN DEL ARCHIVO CSS
+   ----------------------------------------------------- */
